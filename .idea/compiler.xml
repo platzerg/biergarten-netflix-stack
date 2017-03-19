@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.7">
+      <module name="backend" target="1.8" />
+      <module name="backend_main" target="1.8" />
+      <module name="backend_test" target="1.8" />
+      <module name="discovery_main" target="1.8" />
+      <module name="discovery_test" target="1.8" />
+      <module name="frontend" target="1.8" />
+      <module name="frontend_main" target="1.8" />
+      <module name="frontend_test" target="1.8" />
+      <module name="hystrix_main" target="1.8" />
+      <module name="hystrix_test" target="1.8" />
+      <module name="mail_main" target="1.8" />
+      <module name="mail_test" target="1.8" />
+      <module name="proxy_main" target="1.8" />
+      <module name="proxy_test" target="1.8" />
+      <module name="zuul_main" target="1.8" />
+      <module name="zuul_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

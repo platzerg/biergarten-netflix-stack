@@ -1,0 +1,66 @@
+buildscript {
+	ext {
+		springBootVersion = '1.5.2.RELEASE'
+	}
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+		classpath('se.transmode.gradle:gradle-docker:1.2')
+	}
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'docker'
+
+version = '0.1.0'
+sourceCompatibility = 1.8
+
+// This is used as the docker image prefix (org)
+group = 'platzerworld'
+
+jar {
+	baseName = 'biergarten-frontend'
+	version =  '0.1.0'
+}
+
+// tag::task[]
+task buildDocker(type: Docker, dependsOn: build) {
+	push = true
+	applicationName = jar.baseName
+	dockerfile = file('src/main/docker/Dockerfile')
+	doFirst {
+		copy {
+			from jar
+			into stageDir
+		}
+	}
+}
+// end::task[]
+
+repositories {
+	mavenCentral()
+}
+
+
+dependencies {
+	compile('org.springframework.boot:spring-boot-starter-web')
+	compile('org.springframework.cloud:spring-cloud-starter-eureka')
+
+	runtime('org.webjars:bootstrap')
+	runtime('org.webjars:jquery')
+	runtime('org.webjars:webjars-locator')
+	
+	testCompile('org.springframework.boot:spring-boot-starter-test')
+}
+
+
+dependencyManagement {
+	imports {
+		mavenBom "org.springframework.cloud:spring-cloud-dependencies:Camden.SR6"
+	}
+}

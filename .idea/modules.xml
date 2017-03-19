@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/backend/backend.iml" filepath="$PROJECT_DIR$/backend/backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend_main.iml" filepath="$PROJECT_DIR$/.idea/modules/backend_main.iml" group="backend" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend_test.iml" filepath="$PROJECT_DIR$/.idea/modules/backend_test.iml" group="backend" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/biergarten-netflix-stack.iml" filepath="$PROJECT_DIR$/.idea/biergarten-netflix-stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/biergarten-netflix-stack-backend.iml" filepath="$PROJECT_DIR$/.idea/modules/biergarten-netflix-stack-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/biergarten-netflix-stack-discovery.iml" filepath="$PROJECT_DIR$/.idea/modules/biergarten-netflix-stack-discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/biergarten-netflix-stack-frontend.iml" filepath="$PROJECT_DIR$/.idea/modules/biergarten-netflix-stack-frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/biergarten-netflix-stack-hystrix.iml" filepath="$PROJECT_DIR$/.idea/modules/biergarten-netflix-stack-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/biergarten-netflix-stack-mail.iml" filepath="$PROJECT_DIR$/.idea/modules/biergarten-netflix-stack-mail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/biergarten-netflix-stack-zuul.iml" filepath="$PROJECT_DIR$/.idea/modules/biergarten-netflix-stack-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/discovery/discovery.iml" filepath="$PROJECT_DIR$/discovery/discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discovery_main.iml" filepath="$PROJECT_DIR$/.idea/modules/discovery_main.iml" group="discovery" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/discovery_test.iml" filepath="$PROJECT_DIR$/.idea/modules/discovery_test.iml" group="discovery" />
+      <module fileurl="file://$PROJECT_DIR$/frontend/frontend.iml" filepath="$PROJECT_DIR$/frontend/frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/frontend_main.iml" filepath="$PROJECT_DIR$/.idea/modules/frontend_main.iml" group="frontend" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/frontend_test.iml" filepath="$PROJECT_DIR$/.idea/modules/frontend_test.iml" group="frontend" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix/hystrix.iml" filepath="$PROJECT_DIR$/hystrix/hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hystrix_main.iml" filepath="$PROJECT_DIR$/.idea/modules/hystrix_main.iml" group="hystrix" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hystrix_test.iml" filepath="$PROJECT_DIR$/.idea/modules/hystrix_test.iml" group="hystrix" />
+      <module fileurl="file://$PROJECT_DIR$/infrastructure/infrastructure.iml" filepath="$PROJECT_DIR$/infrastructure/infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mail/mail.iml" filepath="$PROJECT_DIR$/mail/mail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mail_main.iml" filepath="$PROJECT_DIR$/.idea/modules/mail_main.iml" group="mail" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mail_test.iml" filepath="$PROJECT_DIR$/.idea/modules/mail_test.iml" group="mail" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/proxy_main.iml" filepath="$PROJECT_DIR$/.idea/modules/proxy_main.iml" group="proxy" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/proxy_test.iml" filepath="$PROJECT_DIR$/.idea/modules/proxy_test.iml" group="proxy" />
+      <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zuul_main.iml" filepath="$PROJECT_DIR$/.idea/modules/zuul_main.iml" group="zuul" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zuul_test.iml" filepath="$PROJECT_DIR$/.idea/modules/zuul_test.iml" group="zuul" />
+    </modules>
+  </component>
+</project>

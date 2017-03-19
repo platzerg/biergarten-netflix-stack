@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: proxy
+
+server:
+  port: 8000
+
+zuul:
+  routes:
+    backend:
+      path: /guestbook/**
+      serviceId: backend
+      strip-prefix: false
+    frontend:
+      path: /**
+      serviceId: frontend
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://discovery:8761/eureka/
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 15000
