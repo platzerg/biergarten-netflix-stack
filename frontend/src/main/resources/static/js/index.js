@@ -4,7 +4,7 @@ $(document).ready(function() {
 		
 		$("#content").empty();
 		
-		$.get("/guestbook/", function(data) {
+		$.get("/biergarten/", function(data) {
 			
 			for(var i=0; i<data.length; i++) {
 				

@@ -13,7 +13,7 @@ $(document).ready(function() {
 		
 		$.ajax({
 		
-			url:"/guestbook/",
+			url:"/biergarten/",
 			method:"PUT",
 			contentType:"application/json",
 			data:JSON.stringify(data),

@@ -8,7 +8,7 @@ server:
 zuul:
   routes:
     backend:
-      path: /guestbook/**
+      path: /biergarten/**
       serviceId: backend
       strip-prefix: false
     frontend:

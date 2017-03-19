@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import java.util.List;
 
 @Controller
-@RequestMapping("/guestbook")
+@RequestMapping("/biergarten")
 @CrossOrigin(origins = "*")
 public class GuestbookController {
 
